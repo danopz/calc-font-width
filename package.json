@@ -1,0 +1,16 @@
+{
+  "name": "calc-font-width",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bin/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Opitz",
+  "license": "MIT",
+  "devDependencies": {
+    "font-manager": "^0.2.2",
+    "fontkit": "^1.7.7"
+  }
+}
