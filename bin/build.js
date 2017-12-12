@@ -15,7 +15,7 @@ fontManager.getAvailableFonts(function (fonts) {
             fontData.width,
             +fontData.italic,
             fontData.style
-        ].join('_').replace(' ', '-').toLowerCase() + '.json';
+        ].join('_').replace(/ /g, '-').toLowerCase() + '.json';
 
         fontkit.open(fontData.path, function (err, font) {
             if (!err && font.characterSet) {
